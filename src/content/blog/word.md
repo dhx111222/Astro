@@ -1,12 +1,12 @@
 ---
-title: 'WPS文字解析t'
+title: 'WPS文字解析'
 description: 'Lorem ipsum dolor sit amet'
 pubDate: 'Jul 15 2024'
 heroImage: '/2.jpg'
 ---
 
 
-## WPS文字解析
+
 
 主要考察:文档属性，样式的修改，多级编号，题注与交叉引用，页眉页脚，制表位，输出为PDF.(1)【操作步骤】
 
