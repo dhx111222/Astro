@@ -1,16 +1,76 @@
 ---
-title: 'First post'
+title: 'EXCEL文字版内容'
 description: 'Lorem ipsum dolor sit amet'
 pubDate: 'Jul 08 2022'
 heroImage: '/blog-placeholder-3.jpg'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
+## WPS表格解析
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
+主要考察:列宽，设置单元格格式，条件格式，数据有效性，批注，外部导入数据，公式，图表，筛选.
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
+(1)【操作步骤】
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+步骤1:选中“工号”列一单击右键一列宽一修改为“8”字符。
+
+步骤2:按照步骤1的方法，分别设置后面几列列宽为10、6、8、16、12、8、8、32、8字符。
+
+注意:一个汉字对应两个字符宽度。
+
+(2)【操作步骤】
+
+步骤:选中F2:F201区域一单击右键→设置单元格格式一分类为“自定义”一类型处修改为"yyy-mm-dd”
+
+(3)【操作步骤】步骤:选中B2:B201区域→【开始】选项卡→【条件格式】→【突出显示单元格规则】→【重复值】→【确定】
+
+(4)【操作步骤】
+
+步骤1:选中J2:1201区域一【数据】选项卡→【插入下拉列表】一选择【手动添加下拉选项】一输入“确认”一点击右上角绿色添加选项输入框，输入“待确认”→【确定】
+
+步骤2:选中J2:J201区域一【数据】选项卡一【有效性】→【出错警告】对话框一在错误信息处输入“输入内容不规范，请通过下拉列表选择”一【确定】。
+
+(5)【操作步骤】
+
+步骤:选中G1单元格→【审阅】选项卡→【新建批注】一在弹出的批注框内输入“工龄计算，满一年才加1。例如:2018-11-22入职，到2020-10-01，工龄为1年。’
+
+(6)【操作步骤】
+
+步骤:光标定位在G2单元格一输入公式=DATEDIF(F2,TODAY0,“"y")一按回车键一光标定位在G2单元格右下角，当呈现黑色实心十字箭头时，双击。
+
+(7)【操作步骤】
+
+步骤1:打开考生文件夹下的素材文档“绩效后台数据:xt”-[CtI+A】全选所有内容一【Ct|+C]复制一回到"sheet3”工作表→【Ct+V】粘贴至A1单元格.。
+
+步骡2:选中A列一【数据】选项卡一[分列】一在弹出的窗口中点击【下一步】一在分隔符号处勾选“逗号”→【下一步】一选中“级别”(C列)一在上方列数据类型处选择“文本”-【完成】
+
+步骤3:切换到"员工绩效汇总”工作表一定位于H2单元格一输入公式=VLOOKUP(A2,Shet3!A:EFALSE)一按回车键·光标定位在H2单元格右下角，当呈现黑色实心十字箭头时，双击。步骤4:光标定位于12单元格一输入公式=VLOOKUP(A2,Sheet3!A:E,5,FALSE)一按回车键一光标定位在!2单元格右下角，当呈现黑色实心十字箭头时，双击
+
+(8)【操作步骤】
+
+步骤:切换到【视图】选项卡→【冻结窗格】→选择【冻结首行】
+
+(9)【操作步骤】
+
+步骤:【页面布局】选项卡一【打印缩放】→选择【将所有列打印在一页】
+
+(10)【操作步骤】
+
+步骤:切换到“统计”工作表一定位于B2单元格一输入公式=COUNTIFS(员工绩效汇总!SE:SE,$A2,员工绩效汇总!$D:SD,BS1)一按回车键一光标定位在B2单元格右下角，当呈现黑色实心十字箭头时，分别往右和往下拖拽。
+
+(11)【操作步骤】
+
+步骤1:选中“统计”工作表中A2:A4和H2:H4数据区域一【插入】选项卡→【全部图表】→选择【饼图】一点击“插入”→删除图表标题
+
+步骤2:【图表工具】选项卡一【添加元素】→【数据标签】→【更多选项】一在右侧勾选“百分比”一去掉“值”的勾选一适当移动图表至合适位置
+
+12)【操作步骤】
+
+步骤1:切换到“员工绩效汇总”→【开始】选项卡→【筛选】。
+
+步骡2:点击“姓名”右侧的筛选按钮一选择【文本筛选】→【包含】一在第一行包含右侧输入“陈”一下方按钮选择“或”一第二行选择"包含”一输入“张”→【确定】
+
+步骤3:最后按【Ctr+S】保存文档。
+
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=1451667164&bvid=BV1pi421o7mt&cid=1487345249&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
