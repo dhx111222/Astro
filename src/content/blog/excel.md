@@ -2,7 +2,7 @@
 title: 'EXCEL文字版内容'
 description: 'Lorem ipsum dolor sit amet'
 pubDate: 'Jul 08 2024'
-heroImage: '/1jpg'
+heroImage: '/1.jpg'
 ---
 
 
@@ -71,6 +71,5 @@ heroImage: '/1jpg'
 步骡2:点击“姓名”右侧的筛选按钮一选择【文本筛选】→【包含】一在第一行包含右侧输入“陈”一下方按钮选择“或”一第二行选择"包含”一输入“张”→【确定】
 
 步骤3:最后按【Ctr+S】保存文档。
-
 
 <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=1451667164&bvid=BV1pi421o7mt&cid=1487345249&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>

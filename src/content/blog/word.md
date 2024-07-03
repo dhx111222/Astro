@@ -1,7 +1,7 @@
 ---
-title: 'Second post'
+title: 'WPS文字解析t'
 description: 'Lorem ipsum dolor sit amet'
-pubDate: 'Jul 15 2022'
+pubDate: 'Jul 15 2024'
 heroImage: '/2.jpg'
 ---
 
@@ -98,3 +98,7 @@ heroImage: '/2.jpg'
 (11)【操作步骤】
 
 【Ctrl+S】保存文档。步骤1:步骤2:点击左上角【文件】→【输出为PDF】→点击【高级设置】→【开始输出】】→【权限设置】勾选一密码输入“123”一确认处再输入一遍一取消【允许修改】和【允许复制】的勾选一【确认】
+
+
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=1601749650&bvid=BV1E2421N7nc&cid=1464102239&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
